@@ -2,6 +2,8 @@
     
 printfn "Enter the text to encrypt"
 let text = System.Console.ReadLine()
+
+printfn "Enter the shift to encrypt"
 let shift = int <| System.Console.ReadLine()
 let encryptedText = CaesarCipher.encrypt text shift
 
