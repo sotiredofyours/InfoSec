@@ -11,9 +11,6 @@ let private mostFrequencyLetterIndex = 4
 let shiftSymbol (shift:int) (x:char) =
     let shiftedChar = (Array.IndexOf(alphabet, x) +  shift) % alphabet.Length
     alphabet[shiftedChar]
-
-let private mostFrequency frequencyMap:Map<char, int> =
-        frequencyMap
       
 let encrypt (text:string) (shift:int) =
     text.ToLower()
