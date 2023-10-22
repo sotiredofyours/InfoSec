@@ -10,6 +10,7 @@
 
     <ItemGroup>
         <Compile Include="CaesarCipher.fs" />
+        <Compile Include="VigenereCypher.fs" />
     </ItemGroup>
 
     <ItemGroup>

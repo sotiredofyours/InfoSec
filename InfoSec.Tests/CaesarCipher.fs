@@ -1,4 +1,4 @@
-module TestProject1
+module CaesarCipherTests
 
 open NUnit.Framework
 
