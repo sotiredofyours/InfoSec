@@ -4,6 +4,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "InfoSec", "InfoSec\InfoSec.
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "InfoSec.Tests", "InfoSec.Tests\InfoSec.Tests.fsproj", "{ED1800A8-3C35-4A96-960F-10A712347870}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RC5", "RC5\RC5.csproj", "{B1527A84-F04D-4D2E-9448-6E67BC5C35E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{ED1800A8-3C35-4A96-960F-10A712347870}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED1800A8-3C35-4A96-960F-10A712347870}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED1800A8-3C35-4A96-960F-10A712347870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1527A84-F04D-4D2E-9448-6E67BC5C35E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1527A84-F04D-4D2E-9448-6E67BC5C35E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1527A84-F04D-4D2E-9448-6E67BC5C35E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1527A84-F04D-4D2E-9448-6E67BC5C35E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
